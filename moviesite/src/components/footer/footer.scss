@@ -1,0 +1,116 @@
+.footer {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footerbox {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .footerbottom {
+            height: 10%;
+            display: flex;
+            justify-content: space-around;
+            .bottomright{
+                width: 50%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .input{
+                    height: 100%;
+                    width: 40%;
+                    input{
+                        height: 100%;
+                        width: 100%;
+                        background-color: transparent;
+                        border:  none;
+                        outline: none;
+                        border-bottom: 1px solid white;
+                        color: white;
+                    }
+                }
+            }
+            .bottomleft {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .footericons{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 30%;
+                }
+                .allrightsreserved{
+                    a{
+                        color: white;
+                        transition: 0.3s;
+                    }
+                    a:hover{
+                        color: #ff6900;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+
+        .line {
+            border: 1px solid #3f3f3f;
+        }
+
+        .footetop {
+            display: flex;
+            height: 40%;
+
+            .topleft {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .topright {
+                width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footetop{
+        img{
+            width: 150px !important;
+        }
+        ul{
+            a{
+                font-size: 10px !important;
+            }
+        }
+    }
+    .footerbottom{
+        p{
+            font-size: 10px !important;
+        }
+        a{
+            font-size: 10px !important;
+        }
+    }
+}

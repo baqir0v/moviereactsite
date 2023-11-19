@@ -1,0 +1,144 @@
+#main {
+    #sliderimages {
+        width: 100%;
+        border: 1px solid black;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .sliderbox {
+            height: 100%;
+            width: 90%;
+            display: flex;
+
+            .sliderleft {
+                width: 70%;
+                height: 100%;
+                display: flex;
+                justify-content: end;
+                flex-direction: column;
+                color: #fdf24e;
+                gap: 50px;
+
+                .sliderlefttext {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                h1 {
+                    padding-bottom: 30px;
+                    font-size: 90px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                .awards {
+                    padding-bottom: 50px;
+                }
+            }
+
+            .sliderright {
+                height: 100%;
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                justify-content: space-between;
+                padding-right: 60px;
+
+                .sliderrighttext {
+                    color: white;
+                    height: 150px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-top: 20px;
+                    // span{
+                    //     width: 100%;
+                    //     border: 1px dashed white;
+                    // }
+                }
+
+                .rightbottom {
+                    button {
+                        cursor: pointer;
+                        width: 100px;
+                        height: 40px;
+                        color: white;
+                        background-color: transparent;
+                        border: 2px solid white;
+                        margin-bottom: 50px;
+                        transition: 0.2s;
+
+                    }
+
+                    button:hover {
+                        background-color: white;
+                        color: black;
+                        transition: 0.2s;
+
+                    }
+
+                    .playbutton {
+                        border: none;
+                    }
+                }
+
+                .chaningbuttons {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 100px;
+
+                    button {
+                        cursor: pointer;
+                        background-color: white;
+                        width: 10px;
+                        height: 10px;
+                        border: none;
+                        border-radius: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sliderleft{
+        h3{
+            font-size: 15px !important;
+        }
+        h1{
+            font-size: 40px !important;
+        }
+        p{
+            font-size: 10px !important;
+        }
+    }
+    .rightbottom{
+        button{
+            width: 50px !important;
+            height: 20px !important;
+            font-size: 5px;
+        }
+    }
+    .sliderrighttext{
+        h1{
+            font-size: 20px !important;
+        }
+        p{
+            font-size: 10px !important;
+        }
+    }
+}
