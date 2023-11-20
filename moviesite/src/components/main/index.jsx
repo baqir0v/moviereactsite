@@ -8,9 +8,15 @@ function Main() {
     const [thirdimg, setThirdImg] = useState("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img3.jpg")
     const [fourthimg, setForthImg] = useState("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/home-1-port-list-2.jpg")
     const [currentImg, setCurrentImg] = useState(firstimg)
+    const [firsttext, setfirsttext] = useState("Back To Nature")
+    const [secondtext, setsecondtext] = useState("Into The Cosmos")
+    const [thirdtext, setthirdtext] = useState("Wait By The Train")
+    const [forthtext, setforthtext] = useState("History Of Color")
+    const [currenttext, setcurrenttext] = useState(firsttext)
 
-    const handleimgChange = (newImg) => {
+    const handleimgChange = (newImg,newtext) => {
         setCurrentImg(newImg);
+        setcurrenttext(newtext)
     }
 
     return (
@@ -20,7 +26,7 @@ function Main() {
                     <div className="sliderleft">
                         <div className='sliderlefttext'>
                             <h3>Select Production Presents</h3>
-                            <h1>Back To Nature</h1>
+                            <h1>{currenttext}</h1>
                             <p>Written and Driected by Tanaka/Ireland 2012</p>
                         </div>
                         <div className='awards'>
@@ -36,10 +42,10 @@ function Main() {
                             <p>Rome / 3 Location / Seven Days</p>
                         </div>
                         <div className='chaningbuttons'>
-                            <button onClick={() => handleimgChange(firstimg)}></button>
-                            <button onClick={() => handleimgChange(secondimg)}></button>
-                            <button onClick={() => handleimgChange(thirdimg)}></button>
-                            <button onClick={() => handleimgChange(fourthimg)}></button>
+                            <button onClick={() => handleimgChange(firstimg,firsttext)}></button>
+                            <button onClick={() => handleimgChange(secondimg,secondtext)}></button>
+                            <button onClick={() => handleimgChange(thirdimg,thirdtext)}></button>
+                            <button onClick={() => handleimgChange(fourthimg,forthtext)}></button>
                         </div>
                         <div className='rightbottom'>
                             <button className='playbutton'>Play</button>

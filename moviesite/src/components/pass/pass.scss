@@ -1,0 +1,209 @@
+.section_TICKETS{
+    padding-left: 50px;
+    .tickets_container{
+      padding: 70px 70px 85px 70px;
+      .qodef-m-title{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .row{
+        padding: 44px 0px 0px 0px;
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+        .col_ONE_DAY{
+          display: flex;
+          width: 33%;
+          background-color: #d2cab9;
+          .col_left{
+            padding: 39px 20px 39px 34px;
+              
+  width: 74.5%;
+  h5{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .type{
+    margin-top: 30px;
+    font-size: 18px;
+    
+  }
+  .price{
+    margin-top: 5px;
+    font-size: 18px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #a69f9a;
+  }
+  .lorem{
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 14px;
+   
+  }
+          }
+          .col_right{
+            width: 25.5%;
+            border-left:1px dashed black ;
+       padding-bottom: 45px;
+       display: flex;
+            justify-content: center;
+            span{
+              position: absolute;
+  margin-top: 15px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+              background-color: #eaa57f;
+            }
+            a{
+              text-decoration: none;
+              color: #000;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-top: 12px;
+              margin-top: 168px;
+              border-top: 1px solid #a69f9a;
+              width: 70%;
+              .arrow{
+                transform: rotate(-45deg);
+                font-size: 16px;
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+        .col_VIP_PASS{
+          display: flex;
+          width: 33%;
+          background-color: #000;
+          .col_left{
+            padding: 39px 20px 39px 34px;
+  width: 74.5%;
+  h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+  }
+  .type{
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+  }
+  .price{
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #4d4d4d;
+  }
+  .lorem{
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: white;
+  }
+          }
+          .col_right{
+            border-left:1px dashed white ;
+            width: 25.5%;
+            padding-bottom: 45px;
+            display: flex;
+            justify-content: center;
+        
+        
+        
+            span{
+              position: absolute;
+  margin-top: 15px;
+              width: 37px;
+              height: 37px;
+              border-radius: 50%;
+              background-color: #EF9797;
+            }
+            a{
+              text-decoration: none;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-top: 12px;
+              margin-top: 168px;
+              border-top: 1px solid #4d4d4d;
+              width: 70%;
+              .arrow{
+                transform: rotate(-45deg);
+                font-size: 16px;
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+        .col_7_DAYS_PACK{
+          display: flex;
+          width: 33%;
+          background-color: #f3f3f3;
+          
+          .col_left{
+            padding: 39px 20px 39px 34px;
+  width: 74.5%;
+  h5{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .type{
+    margin-top: 30px;
+    font-size: 18px;
+    
+  }
+  .price{
+    margin-top: 5px;
+    font-size: 18px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #a5a5a5;
+  }
+  .lorem{
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 14px;
+ 
+  }
+          }
+          .col_right{
+            width: 25.5%;
+            border-left:1px dashed black ;
+            padding-bottom: 45px;
+            display: flex;
+            justify-content: center;
+            span{
+        
+              position: absolute;
+              margin-top: 15px;
+              width: 37px;
+              height: 37px;
+              border-radius: 50%;
+              background-color: #FDF24E;
+            }
+            a{
+              text-decoration: none;
+              color: #000;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-top: 12px;
+              margin-top: 168px;
+             
+              border-top: 1px solid #a5a5a5;
+              width: 70%;
+              .arrow{
+                margin-left: 5px;
+                transform: rotate(-45deg);
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

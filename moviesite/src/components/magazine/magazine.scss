@@ -1,0 +1,65 @@
+#magazine {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: end;
+
+    .magazineleft {
+        padding-right: 250px;
+        height: 100%;
+        button{
+            width: 150px;
+            height: 50px;
+            background-color: transparent;
+            transition: 0.2s;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .magazineleftbox {
+            height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+            .texts {
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+
+        
+    }
+
+    h6 {
+        font-size: 20px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    .aas {
+        width: 160px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: black;
+            font-size: 12px;
+        }
+    }
+}
+
+.magazineright {
+    width: 40%;
+
+    img {
+        // display: none;
+        width: 100%;
+        height: 100%;
+    }
+}
